@@ -4,11 +4,66 @@
     position: relative;
     max-height: 674px;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -khtml-border-radius: 4px;
     background: white;
     flex: 0 0 350px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+
+  .profileSocial {
+    position: absolute;
+    bottom: 50px;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .profileSocialIcons svg {
+    margin: 15px 5px 0px 5px;
+  }
+
+  .profileName {
+    margin: -0 0 10px 0;
+    color: #171717;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 34px;
+  }
+
+  .profileRole {
+    margin: 0;
+    display: inline-block;
+    color: #78cc6d;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .profileImage {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+
+  .profileImage:before {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    transform: rotate(12deg);
+    left: -25%;
+    bottom: -50%;
+    width: 100%;
+    height: 70%;
+    z-index: 1;
+  }
+
+  .profileImage:after {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    left: auto;
+    right: -25%;
+    bottom: -50%;
+    width: 100%;
+    height: 70%;
+    transform: rotate(-8deg);
   }
 }

@@ -15,5 +15,5 @@ export const NavigationLink = styled(props => <Link {...props} />)`
   color: #323232;
   text-align: center;
   background: #fff;
-  box-shadow-none;
+  box-shadow: none;
 `
