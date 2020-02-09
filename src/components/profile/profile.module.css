@@ -1,0 +1,14 @@
+@media screen and (min-device-width: 768px) {
+  .profile {
+    height: 100%;
+    position: relative;
+    max-height: 674px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    background: white;
+    flex: 0 0 350px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  }
+}
