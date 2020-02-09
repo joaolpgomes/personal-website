@@ -2,9 +2,11 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
+// Components
 import Layout from '../components/layout/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
+import Title from '../components/title/title'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -18,7 +20,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <Title title={post.frontmatter.title}></Title>
         <p
           style={{
             ...scale(-1 / 5),
