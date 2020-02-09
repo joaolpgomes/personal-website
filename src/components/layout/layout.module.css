@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  height: 84vh;
+  max-width: 960px;
+  max-height: 674px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 10px;
+}
+
+.page {
+  background: #fff;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 4px 4px 0;
+  -khtml-border-radius: 0 4px 4px 0;
+  width: 100%;
+}
+
+@media screen and (min-device-width: 768px) {
+  .container {
+    flex-wrap: nowrap;
+  }
+
+  .page {
+    margin: 10px 0 10px -10px;
+    padding-left: 20px;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+}
