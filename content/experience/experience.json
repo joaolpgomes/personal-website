@@ -1,0 +1,41 @@
+{
+  "title": "Experience",
+  "content": [
+    {
+      "role": "Principal Software Engineer",
+      "date": "Jul 2018 - Present",
+      "company": "Sage People",
+      "description": "<p>Architecture and development of single-page applications with JavaScript, TypeScript, Angular (8.x.x), NgRx/Redux, CSS/SASS, HTML5. Design and development of API applications with Node.js and Salesforce (Apex).</p> <p>Use of Jenkins for continuous integration. Worked closely with product owners to define and track deliverables on the roadmap.</p>"
+    },
+    {
+      "role": "Senior Software Engineer",
+      "date": "Mar 2017 – Jun 2018",
+      "company": "Sage People",
+      "description": "<p>Responsible for the architecture of presentation tier as part of a company-wide effort to move from a monolithic web application to service-oriented architecture.</p><p>As part of my new role, I was responsible for designing, building and maintaining a new UI library with shared components to be used by all the Angular web applications within Sage People.</p>"
+    },
+    {
+      "role": "Software Engineer",
+      "date": "Mar 2015 – Feb 2017",
+      "company": "Fairsail",
+      "description": "<p>Part of a team responsible for the design and development of the Cloud SaaS CRM product.</p><p>Front end development using AngularJS (1.6), Angular (7.x.x), JavaScript, TypeScript, RxJS, Redux, CSS3 (Less/SASS), HTML5 and Karma/Jasmine for unit testing. Back end development using technologies such Apex, Salesforce.</p>"
+    },
+    {
+      "role": "Software Engineer",
+      "date": "Sep 2013 – Feb 2015",
+      "company": "Alfamind",
+      "description": "<p>I was part of a small team of 4 developers responsible for the analysis and development of applications essentially for web, participating in the full cycle of software development, using technologies such as PHP, Laravel/Codeigniter, MySQL, JavaScript, Web Services, jQuery, HTML5, CSS3.</p>"
+    },
+    {
+      "role": "Software Engineer",
+      "date": "Jan 2013 – Jun 2013",
+      "company": "Netico",
+      "description": "<p>I was responsible for analyzing and development of web applications using technologies such as PHP, MySQL, Codeigniter, JavaScript, jQuery, HTML5, CSS3/SASS.</p>"
+    },
+    {
+      "role": "Software Engineer - Internship",
+      "date": "Mar 2012 – Nov 2012",
+      "company": "Brotideal",
+      "description": "<p>I was responsible for the architecture and design of Brotideal e-commerce applications as other internal software of the company, participating in the front end and back development using technologies such as PHP, MySQL, JavaScript/jQuery, HTML, CSS</p>"
+    }
+  ]
+}

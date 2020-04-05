@@ -1,0 +1,18 @@
+.about {
+  color: #646464;
+  font-size: 12px;
+}
+
+.about h2 {
+  font-size: 16px;
+  color: #78cc6d;
+}
+
+.aboutList {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.aboutContent {
+  margin-top: 20px;
+}

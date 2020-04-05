@@ -1,0 +1,13 @@
+.date {
+  position: relative;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 18px;
+  color: #78cc6d;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid #78cc6d;
+  padding: 3px;
+  margin-bottom: 10px;
+}

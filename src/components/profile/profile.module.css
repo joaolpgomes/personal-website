@@ -16,10 +16,10 @@
   }
 
   .profileSocial {
-    position: absolute;
-    bottom: 50px;
-    z-index: 2;
     width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -30px;
   }
 
   .profileSocialIcons svg {

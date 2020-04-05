@@ -3,6 +3,8 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout/layout'
 import SEO from '../components/seo'
+import Title from '../components/title/title'
+import DateFormat from '../components/date-format/date-format'
 import { rhythm } from '../utils/typography'
 
 export default function Blog(props) {
@@ -13,19 +15,28 @@ export default function Blog(props) {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO title="All posts" />
-      <div>
+      <Title title="Blog" />
+      <div style={{ marginTop: `20px` }}>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
               <Link
-                style={{ boxShadow: `none` }}
+                style={{
+                  boxShadow: `none`,
+                  display: `block`,
+                  color: `#78cc6d`,
+                }}
                 to={`blog${node.fields.slug}`}
               >
                 {title}
               </Link>
-              <small>{node.frontmatter.date}</small>
+              <DateFormat date={node.frontmatter.date} />
               <p
+                style={{
+                  color: `#646464`,
+                  fontSize: `12px`,
+                }}
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
