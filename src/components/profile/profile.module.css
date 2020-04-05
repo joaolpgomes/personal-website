@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-width: 768px) {
   .profile {
     display: block;
     height: 100%;
@@ -24,6 +24,7 @@
 
   .profileSocialIcons svg {
     margin: 15px 5px 0px 5px;
+    font-size: 17px;
   }
 
   .profileName {
